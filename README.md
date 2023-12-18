@@ -26,12 +26,9 @@ This project is used as currency converter.It includes register, login and conve
 6. Serve Project
 
         php artisan serve
-7. There is more than one way to update service data. We used a standard structure that is not subject to limits. Send the following code to your server administrator and ask him to add it to the crontab service.The system will be updated every 15 minutes.
-
-        */15 * * * * cd /var/www/project-directory && php artisan converter:sync >> /dev/null 2>&1
-8. Or you can use a schedules.https://laravel.com/docs/10.x/scheduling#running-the-scheduler
+7. There is more than one way to update service data. We used a standard structure that is not subject to limits. Send the following code to your server administrator and ask him to add it to the crontab service.The system will be updated every 15 minutes. You can use a schedules.https://laravel.com/docs/10.x/scheduling#running-the-scheduler
    
-        * * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1
+        * * * * * cd /path-to-your-project && php artisan schedule:work >> /dev/null 2>&1
 
 
 ### Run the setup update manually
