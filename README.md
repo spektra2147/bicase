@@ -3,7 +3,7 @@
 
 ## About Bicase
 
-This project is used as currency converter.It includes register, login and convert services.
+This project is used as currency converter.It includes register, login and convert services.You can integrate your own API services with the gateway method.
 
 ### System Req:
 - Php 8.1/ 8.2
@@ -41,3 +41,10 @@ This project is used as currency converter.It includes register, login and conve
 Postman API file has been added so that you can easily access and test the API document. I hope you enjoy using it.
 
 https://documenter.getpostman.com/view/4871431/2s9Ykn9hDq
+
+> `Couldn't convert. Please try again later.` If you are getting an error, please run the synchronization command.
+
+
+
+
+
